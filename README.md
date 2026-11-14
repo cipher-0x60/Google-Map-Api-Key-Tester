@@ -25,7 +25,7 @@ A Bash tool for **bug bounty hunters, penetration testers, and developers** to q
 
 ## 📦 Installation
 ```bash
-git clone https://github.com/yourusername/google-maps-api-key-tester.git
+git clone https://github.com/cipher-0x60/Google-Map-Api-Key-Tester.git
 cd google-maps-api-key-tester
 chmod +x google_maps_key_tester.sh
 ```
