@@ -4,7 +4,7 @@ A Bash tool for **bug bounty hunters, penetration testers, and developers** to q
 
 ---
 
-## 🚀 Features
+##  Features
 - **Single key or bulk testing** from a file  
 - **Automatic API key extraction** using regex (`AIza...`)  
 - Tests multiple Google Maps API services:
@@ -17,13 +17,13 @@ A Bash tool for **bug bounty hunters, penetration testers, and developers** to q
   - Static Maps API
   - Street View API
 - Color-coded results:  
-  - ✅ **[ENABLED]** Service works with the key  
-  - ❌ **[DISABLED]** Service blocked / restricted  
+  -  **[ENABLED]** Service works with the key  
+  -  **[DISABLED]** Service blocked / restricted  
 - Final **VALID / INVALID** key summary
 
 ---
 
-## 📦 Installation
+##  Installation
 ```bash
 git clone https://github.com/cipher-0x60/Google-Map-Api-Key-Tester.git
 cd google-maps-api-key-tester
@@ -32,7 +32,7 @@ chmod +x google_maps_key_tester.sh
 
 ---
 
-## 💻 Usage
+##  Usage
 ```bash
 # Test a single key
 ./google_maps_key_tester.sh AIzaXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -44,7 +44,7 @@ chmod +x google_maps_key_tester.sh
 
 ---
 
-## 📄 Example Output
+##  Example Output
 ```
 ===============================
 Testing API Key: AIzaSyD-ExampleKey123
@@ -58,13 +58,13 @@ Testing API Key: AIzaSyD-ExampleKey123
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 - **Bash 4.0+** (macOS users: install via Homebrew)
 - `curl`
 
 ---
 
-## ⚠ Disclaimer
+##  Disclaimer
 This script is provided **for educational and security testing purposes only**.  
 Do not use it on systems you do not own or have explicit permission to test.  
 The author is not responsible for misuse or any resulting consequences.
